@@ -1,0 +1,20 @@
+[
+  {
+    "id": "no_polyester_real",
+    "note": "Copy to real_cases.json and use your garment names. Labels are the physical truth: M meets, C conflicts, I not enough evidence.",
+    "requirements": {"excluded_materials": ["polyester"]},
+    "labels": {"Grey cotton tee": "M", "Black stretch top": "C", "Blue knit, no label": "I"}
+  },
+  {
+    "id": "cotton_blend",
+    "note": "A '60% cotton, 40% polyester' label must conflict, even though it says cotton.",
+    "requirements": {"excluded_materials": ["polyester"]},
+    "labels": {"Cream cotton-blend sweater": "C"}
+  },
+  {
+    "id": "mislabeled_sleeves",
+    "note": "Enter this garment as long-sleeved on purpose when it is three-quarter. Expect ProofPick to be wrong here and report it.",
+    "requirements": {"sleeves": "long"},
+    "labels": {"Striped three-quarter top": "C"}
+  }
+]

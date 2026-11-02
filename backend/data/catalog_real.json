@@ -1,0 +1,29 @@
+[
+  {
+    "todo": true,
+    "id": "TODO_listing_001",
+    "name": "TODO: product name exactly as the retailer lists it",
+    "brand": "TODO: brand",
+    "variant": "TODO: color / size you collected",
+    "color": "TODO: listed color name",
+    "price": 0,
+    "currency": "USD",
+    "description": "TODO: one-line paraphrase in your own words (no copied listing text)",
+    "tags": [],
+    "image": "TODO_listing_001.jpg",
+    "collected_at": "TODO: YYYY-MM-DD",
+    "data_label": "Real listing collected by the ProofPick team. Price and stock may have changed",
+    "retailer_name": "TODO: retailer",
+    "product_url": "TODO: exact listing URL",
+    "image_rights": "own_photo",
+    "is_demo": false,
+    "evidence": [
+      {"id": "TODO_listing_001_price", "product_id": "TODO_listing_001", "field": "price", "source": "TODO: retailer listing",
+       "source_type": "listing_text", "source_url": "TODO: exact listing URL", "quote": "TODO: $00.00 USD", "collected_at": "TODO: YYYY-MM-DD"},
+      {"id": "TODO_listing_001_composition", "product_id": "TODO_listing_001", "field": "composition", "source": "TODO: retailer listing, composition section",
+       "source_type": "listing_text", "source_url": "TODO: exact listing URL", "quote": "TODO: e.g. 60% cotton, 40% polyester", "collected_at": "TODO: YYYY-MM-DD"},
+      {"id": "TODO_listing_001_sleeves", "product_id": "TODO_listing_001", "field": "sleeves", "source": "TODO: retailer listing, description",
+       "source_type": "listing_text", "source_url": "TODO: exact listing URL", "quote": "TODO: e.g. Long sleeves.", "collected_at": "TODO: YYYY-MM-DD"}
+    ]
+  }
+]

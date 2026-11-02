@@ -1,0 +1,17 @@
+.env
+*.db
+*.sqlite*
+backend/.venv/
+node_modules/
+.next/
+__pycache__/
+backend/var/
+.env
+*.db
+*.sqlite*
+backend/.venv/
+node_modules/
+.next/
+__pycache__/
+backend/var/
+.claude/
