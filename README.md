@@ -9,19 +9,19 @@ ProofPick recommends tops for shoppers with specific requirements. It checks eac
 ## How it works
 
 1. **Describe:** the request becomes editable requirements, split into non-negotiable fields and preferences. Nothing is searched until the shopper confirms.
-   <img width="574" height="619" alt="Screenshot from 2026-11-02 20-59-24" src="https://github.com/user-attachments/assets/8fb0c48a-4a17-4d59-9bf5-4a05137d7f98" />
+<img width="574" height="619" alt="Screenshot from 2026-11-02 20-59-24" src="https://github.com/user-attachments/assets/8fb0c48a-4a17-4d59-9bf5-4a05137d7f98" />
 
 3. **Check products:** backend rules compare each requirement with the evidence and return `meets_documented_requirements`, `conflicts_with_requirement` or `insufficient_evidence`.
 5. **Rank:** the model orders eligible products by preference. It cannot change eligibility, and any invented product or evidence ID is rejected.
 6. **Try on:** up to three shortlisted products go to YouCam with the shopper's photo.
-   <img width="581" height="461" alt="Screenshot from 2026-11-02 21-00-22" src="https://github.com/user-attachments/assets/933a8016-15a0-447a-8714-d2ea93750b42" />
+<img width="581" height="461" alt="Screenshot from 2026-11-02 21-00-22" src="https://github.com/user-attachments/assets/933a8016-15a0-447a-8714-d2ea93750b42" />
 
 8. **Inspect:** the model compares each original garment with its preview, feature by feature. The result is `no_visible_mismatch_detected`, `possible_mismatch` or `not_assessable`.
 9. **Compare:** each card shows the price, the checks, their source evidence, the preview with a before/after slider, and any uncertainty. The **Evidence matrix** view puts requirements in rows and products in columns, each cell Verified, Conflict or Unknown with its source. The shopper decides; ProofPick never buys anything.
-    <img width="627" height="628" alt="Screenshot from 2026-11-02 21-00-36" src="https://github.com/user-attachments/assets/50b700a6-f523-44ab-91c4-3ebb048bbb93" />
+<img width="627" height="628" alt="Screenshot from 2026-11-02 21-00-36" src="https://github.com/user-attachments/assets/50b700a6-f523-44ab-91c4-3ebb048bbb93" />
 
 11. **No match:** ProofPick shows what blocks the request, what dropping each must-have would unlock, and the closest matches. It never relaxes a must-have by itself: the shopper clicks "Search without it", and can still choose to try on a closest match, which stays labeled as not recommended.
-    <img width="627" height="628" alt="Screenshot from 2026-11-02 21-00-45" src="https://github.com/user-attachments/assets/e1bd55d0-c27b-483a-ac9c-d2d9a279391e" />
+<img width="627" height="628" alt="Screenshot from 2026-11-02 21-00-45" src="https://github.com/user-attachments/assets/e1bd55d0-c27b-483a-ac9c-d2d9a279391e" />
 <img width="627" height="628" alt="Screenshot from 2026-11-02 21-00-54" src="https://github.com/user-attachments/assets/5fafc9f1-6ab3-4fc2-ad74-284f8cc2e5d5" />
 
 
